@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+
+html,
+body {
+    font-family: 'Inter';
+    font-style: normal;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav.navbar {
+    background: #3E3C3C;
+    left: 0;
+    top: 0;
+}
+
+a.navbar-brand{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+a.nav-link {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
