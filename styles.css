@@ -27,3 +27,19 @@ a.nav-link {
     font-weight: 600;
     color: #FFFFFF;
 }
+
+.container {
+    width: 1440px;
+    height: 870px;
+    padding: 192px, 0px, 192px, 0px;
+    gap: 24px;
+}
+
+.col-8 {
+    background-color: aqua;
+    width: 566px;
+    height: 739px;
+    padding-top: 192px;
+    padding-bottom: 192px;
+
+}
