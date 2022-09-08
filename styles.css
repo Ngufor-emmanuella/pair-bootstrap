@@ -32,15 +32,19 @@ a.nav-link {
     display: flex;
     gap:87px ;
     background: #1C1A19;
+    height: 870px;
 }
 
 .container-icons {
     margin-top: 4rem;
+    padding: 279px 87px 341px 36px;
+    
 }
 
 .container-icons li {
     list-style: none;
     margin-bottom: 5px;
+   
 }
 
 .container-heading {
@@ -48,6 +52,9 @@ a.nav-link {
     background-size: 50rem;
     background-position: 20px;
     background-repeat: no-repeat;
+    padding-top: 192px;
+    padding-bottom: 192px;
+
 }
 
 .container-heading > p {
