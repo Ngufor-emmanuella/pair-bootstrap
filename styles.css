@@ -31,9 +31,48 @@ a.nav-link {
 .container-main {
     display: flex;
     gap:87px ;
+    background: #1C1A19;
+}
+
+.container-icons {
+    margin-top: 4rem;
 }
 
 .container-icons li {
     list-style: none;
-    margin-bottom: 23px;
+    margin-bottom: 5px;
+}
+
+.container-heading {
+    background: url(/img/illustration-header-mobile.png);
+    background-size: 50rem;
+    background-position: 20px;
+    background-repeat: no-repeat;
+}
+
+.container-heading > p {
+    width: 12rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.container-heading > h1 {
+    color: #FF6B00;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 64px;
+}
+
+.container-heading > h2 {
+    font-size: 18px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
 }
