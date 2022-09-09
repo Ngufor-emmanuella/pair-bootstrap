@@ -8,6 +8,11 @@ body {
     box-sizing: border-box;
 }
 
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
 nav.navbar {
     background: #3E3C3C;
     left: 0;
@@ -28,32 +33,45 @@ a.nav-link {
     color: #FFFFFF;
 }
 
-.container-main {
+.container-main,
+.container-main.cards {
     display: flex;
     gap:87px ;
     background: #1C1A19;
     height: 870px;
 }
 
+.container-main.cards {
+    background-color: #F4F5F7;
+}
+
 .container-icons {
     margin-top: 4rem;
-    padding: 279px 87px 341px 36px;
+    width: 15px;
+    height: auto;
+    padding: 252px 0px 341px 36px;
     
+}
+
+.container-icons ul {
+    width: auto;
 }
 
 .container-icons li {
     list-style: none;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
    
 }
 
 .container-heading {
-    background: url(/img/illustration-header-mobile.png);
+    /* background: url(/img/illustration-header-mobile.png); */
     background-size: 50rem;
     background-position: 20px;
     background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 192px;
     padding-bottom: 192px;
+    width: auto;
 
 }
 
@@ -62,24 +80,76 @@ a.nav-link {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #fff;
+    font-size: 20px;
+    line-height: 32px;
+    color: #F4F5F7;
 }
 
 .container-heading > h1 {
-    color: #FF6B00;
+    color: #F55800;
     font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 64px;
+    font-size: 72px;
+    line-height: 81.5px;
 }
 
 .container-heading > h2 {
-    font-size: 18px;
+    font-size: 32px;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 44px;
+
+}
+
+.container-cards {
+    margin-left: 118px;
+    margin-right: 118px;
+    width: 1200px;
+}
+
+.title-card {
+    color: #091E42;
+    line-height: 52px;
+    font-size: 40px;
     font-weight: 400;
-    color: #fff;
+    margin-bottom: 24px;
+
+
+}
+
+p.desc {
+    color: #091E42;
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 24px;
+
+}
+
+ul.container {
+    margin: 0;
+    padding: 0;
+}
+
+.container.list{
+    margin-bottom: 24px;
+
+}
+
+.container.list li {
+    list-style: none;
+    
+}
+
+.btn-see {
+    background: #F55800;
+    padding: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-decoration: none;
+
 }
